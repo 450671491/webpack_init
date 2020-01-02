@@ -1,0 +1,11 @@
+.a{
+  color: red;
+  font-size: 32px;
+  background: url('./img/icon_default.png') no-repeat left top;
+}
+body{
+  background: #f2f2f2;
+  transform: rotate(30deg);
+  display: flex;
+  background: url('./img/bg_login.jpg') no-repeat left top;
+}
