@@ -4,6 +4,7 @@
   "description": "init",
   "main": "index.js",
   "scripts": {
+    "genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s",
     "analyz": "NODE_ENV=production npm_config_report=true npm run build",
     "dll": "webpack --config build/webpack.dll.config.js",
     "dev": "webpack-dev-server --config build/webpack.dev.js --open",
