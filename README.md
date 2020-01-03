@@ -71,3 +71,17 @@ html-webpack-plugin:html打包模版，可以插入生成的js文件
 
 ------------
 
+## git提交规范
+`npm install -D commitizen conventional-changelog cz-conventional-changelog`
+
+package.json添加
+```
+{
+    //...
+    "config": {
+        "commitizen": {
+          "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
+```
