@@ -1,3 +1,5 @@
-import './assets/index.css'
-let a = `有点东西`;
-console.log(a)
+import Vue from 'vue'
+import App from './app'
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
