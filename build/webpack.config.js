@@ -99,8 +99,8 @@ module.exports = {
             options: {
               presets: ['@babel/preset-env']
             }
-          },
-          path.resolve(__dirname, '../webpack-loader/drop-console.js')
+          }
+          // path.resolve(__dirname, '../webpack-loader/drop-console.js')
         ],
         exclude: /node_modules/
       },

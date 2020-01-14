@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-    {{msg}}
-  </div>
+  <test>
+     <div class="container">
+      {{msg}}
+    </div>
+  </test>
 </template>
 
 <script>
@@ -13,7 +15,6 @@ export default {
     }
   },
   created () {
-    console.log('这个要干掉')
   }
 }
 </script>
